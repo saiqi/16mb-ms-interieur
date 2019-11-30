@@ -159,7 +159,8 @@ class ElectionCollectorService(object):
             'liste_tete_nom': doc.get('NomTeteListe', None),
             'liste_tete_prenom': doc.get('NomTeteListe', None),
             'liste_tete_civilite': doc.get('CiviliteTeteListe', None),
-            'liste_nb_elus': ElectionCollectorService.handle_missing_number(doc, 'NbSieges')  
+            'liste_nb_elus': ElectionCollectorService.handle_missing_number(doc, 'NbSieges'),
+            'nb_voix': int(doc['NbVoix'])
         }
 
     @staticmethod
