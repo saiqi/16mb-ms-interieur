@@ -110,8 +110,8 @@ class ElectionCollectorService(object):
     def extract_resultats(doc):
         _log.info('Handling resultats informations ...')
         return {
-            'nb_sap': doc['NbSap'],
-            'nb_sp': doc['NbSiePourvus']
+            'nb_sap': ElectionCollectorService.handle_missing_number(doc, 'NbSap'),
+            'nb_sp': ElectionCollectorService.handle_missing_number(doc, 'NbSiePourvus')
         }
 
     @staticmethod
@@ -178,15 +178,20 @@ class ElectionCollectorService(object):
     def build_records(doc, er):
         _log.info(f'Building data from {er.url}')
         election = doc['Election']
-        root = ElectionCollectorService.extract_scrutin(doc['Scrutin'])
+        root = ElectionCollectorService.extract_scrutin(election['Scrutin'])
         root['election_id'] = er.election_id
         root['feed_id'] = er.feed_id
+
+        def ensure_list(d):
+            if isinstance(d, list):
+                return d
+            return [d] 
 
         def handle_tour(t, prev):
             t_lvl = ElectionCollectorService.extract_tour(t)
             t_lvl.update(prev)
             t_lvl.update(
-                ElectionCollectorService.extract_mention(t))
+                ElectionCollectorService.extract_mention(t['Mentions']))
 
             res = t['Resultats']
             t_lvl.update(
@@ -196,10 +201,10 @@ class ElectionCollectorService(object):
                     res['Nuances']['Nuance'], ElectionCollectorService.extract_nuance, 'N', t_lvl)
             elif 'Listes' in res:
                 return ElectionCollectorService.complete_records(
-                    res['Listes']['Liste'], ElectionCollectorService.extract_nuance, 'L', t_lvl)
+                    res['Listes']['Liste'], ElectionCollectorService.extract_liste, 'L', t_lvl)
             elif 'Candidats' in res:
                 return ElectionCollectorService.complete_records(
-                    res['Candidats']['Candidat'], ElectionCollectorService.extract_nuance, 'C', t_lvl)
+                    res['Candidats']['Candidat'], ElectionCollectorService.extract_candidat, 'C', t_lvl)
             else:
                 raise ElectionCollectorError(
                     'Cannot find neither Nuances, Listes nor Candidats under Resultats')
@@ -207,16 +212,17 @@ class ElectionCollectorService(object):
         def handle_commune(c, prev):
             c_lvl = ElectionCollectorService.extract_commune(c)
             c_lvl.update(prev)
-
             return list(itertools.chain.from_iterable([
-                handle_tour(t, c_lvl) for t in c['Tours']['Tour']]))
+                handle_tour(t, c_lvl) for t in ensure_list(c['Tours']['Tour'])]))
 
-        if 'Departement' in doc:
-            root.update(ElectionCollectorService.extract_departement(doc['Departement']))
+        if 'Departement' in election:
+            root.update(ElectionCollectorService.extract_departement(election['Departement']))
             return list(itertools.chain.from_iterable(
-                [handle_commune(c, root) for c in doc['Departement']['Communes']['Commune']]))
+                [handle_commune(c, root) for c in ensure_list(
+                    election['Departement']['Communes']['Commune'])]))
         return list(itertools.chain.from_iterable(
-            [handle_tour(t, root) for t in doc['Tours']['Tour']]))
+            [handle_tour(t, root) for t in ensure_list(
+                election['Tours']['Tour'])]))
 
     def update_checksum(self, id_, checksum):
         self.database['elections'].update_one(
@@ -231,7 +237,7 @@ class ElectionCollectorService(object):
             try:
                 records = ElectionCollectorService.build_records(
                     doc, r)
-            except Exception as e:
+            except ElectionCollectorError as e:
                 _log.error(f'Error on {r.url}: {str(e)}')
                 continue
             data = {
