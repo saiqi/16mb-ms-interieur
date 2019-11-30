@@ -267,9 +267,6 @@ class ElectionCollectorService(object):
         meta = msg.get('meta', None)
         if not meta:
             return
-        checksum = msg.get('checksum', None)
-        if not checksum:
-            return
         if 'type' not in meta or 'source' not in meta or meta['source'] != 'interieur':
             return
         
