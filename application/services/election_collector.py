@@ -272,8 +272,8 @@ class ElectionCollectorService(object):
         
         self.pub_notif(bson.json_util.dumps({
             'id': msg['id'],
-            'source': msg['source'],
-            'type': msg['type'],
+            'source': meta['source'],
+            'type': meta['type'],
             'content': 'French election loaded!'
         }))
 
