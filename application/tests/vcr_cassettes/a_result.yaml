@@ -1,0 +1,878 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://www.interieur.gouv.fr/avotreservice/elections/telechargements/ER2019/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/82UXW/aMBSG7/kVni+4o8YJH6NNUnUJ01JRQMCEqmmqjO0Qb8FBtkFlv34OZoJO
+        dGLqTS+S+CjvOX6fk/gEH5JRPHsc98GX2cMAjL9+GqQxgA2E5n6MUDJL3Av/ygOfhSQFQv0hjGpB
+        blZFVANBzgmzTxAYYQoepZLxZ1BmAJFtaRTXXG0F5YgXnBpRSo1MtcyJWvIVl0aj/sRr4l6AXL6t
+        iA4lg0XJdtVO+A1VbXItMGRhSwdG2SuPArFaAq1oCJGgVe6iIPLn1VJkEJDChPBbGo++w8hayl0C
+        AbniWQhv43B4MwoTGA3JigeInNc8WM0djAZEG7AqmcgEZ6+Kp048Fb9eL5g4TcI1VWJdAR+laE+1
+        JwO0LPSayBC2rftcnShqTsLAlhRiaRWmXMMznSD0RSOSdOIawarko6eLPwOMxkTZFUiEsppS7Q7O
+        XcG6XOj1zZ8QHLwpscwNjABogLPK/wDKyoJxdQlSTCQTjJiNxbK2X4Snnv8yibuN+41sVD8bwPga
+        YwDeBY69cdt4yvsTS3MaXQ7T7L4bGL0pDDF6hvcwx+hSGO+65b8J5t+HC7kJUwvcAQVE7yQFZrfm
+        Fp4/G/SDbIl7Bw89eEolJWtLQp4mXJcbRfntdH6fPg7md2EX95jfYj6mH7lPOryTZRlree2sy5u+
+        l/l1qUNcp4vQw62238OdTrPqm9uh8rMfnXb67Yf0b6xn5X7kBQAA
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '552'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Date:
+      - Sat, 16 Nov 2019 20:23:31 GMT
+      Server:
+      - Footprint Distributor V6.1.1162
+      Strict-Transport-Security:
+      - max-age=15552001; includeSubDomains; preload,max-age=15552001; includeSubDomains;
+        preload
+      Vary:
+      - Accept-Encoding,x-protocol
+      X-Content-Type-Options:
+      - nosniff
+      X-Iinfo:
+      - 5-246852656-246852700 NNNN CT(0 0 0) RT(1573934046645 185) q(0 0 0 28) r(3
+        3) U5
+      X-WR-MODIFICATION:
+      - Content-Length
+      X-XSS-Protection:
+      - 1; mode=block
+      x-cdn:
+      - Incapsula
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://www.interieur.gouv.fr/avotreservice/elections/telechargements/ER2019/resultatsT1/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/9SYXW/aMBSG7/kVZ77YHZh8EViTTBuhGh0F1DJN07QLkxhiNXGQY1i7Xz/HYSub
+        YBtSNdUXsfPx5vh5T45jycGLeDZcfJqP4N3iegLzD28n4yGgNsYfnSHG8SJuHjgdGy4ZJznGoymK
+        WkEmizxqQZBRkqoeAslkTqMxT+k9lCvAZFdKQSsqdiyhmOY0kazkFZb1aUbEmhaUywqPbuyuNcBK
+        us0lkdXCCnATS0XH+/DBskwf6lGtJxpBBWoFkizVMIEU6siigBVrqEQSIsySOs4yJ/yus2YrBCSX
+        Ifo8Hs6+oEjhZc0LBDJBVyF6PQynF7MwRtGUFDTA5LjmWmneoGhCKglFmbIVo+lJ8W0jvmXfTgeM
+        G01Mq0SwTW3+UYq1K+0MkjKvNoSHyFP0mThQtBpJCjuSs7VSyHKDjmSCJL8kIh7fNIlI65cfmc79
+        JCiaE6FuQMyEkpbiYW+gifuSL6vNxY9L2CMKts4kigDacFR5hq9VmadU/IuzbreraOv2kPA3JMtv
+        X215u7YGlvXK7QE8E3hLw1tmwtsa3jYT3tHwjpnwroZ3zYTvafiekfCWnrCWmRPW1mVjm1k2tq/h
+        fTPh+xq+byS8o//zjpn/eVfXvGtmzXs6856Zmff0CuuZucL6Xg2vWiPh9Qrrm7nC9vWE7Zs5YQe6
+        5gdm1vxAZ37wjDK/5Xe8/MoP6QHgKP3lqHNf5Chq+jMcuCcd+Fbv/X90wOr9k8bEz9Mn8QGe/Vcf
+        f96LwM2GTOs7AAAA//+zgYxnKCQWV+YlK5RUFqQC/Z1aUaKflViWCJFTgno/3jMvObGguDQnMT4o
+        tTi/tCg51T443Msz0ifc0dbc0DLF2CTF2DDZItU40SzVLC0tLcXEyDTNPBXYzkgzVssrtjVUS06y
+        NTQ2MjQwNjE2NwaFGMQGkHvAo042+pCxLgB2BLF/KxMAAA==
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '718'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Date:
+      - Sat, 16 Nov 2019 20:23:31 GMT
+      Server:
+      - Footprint Distributor V6.1.1162
+      Strict-Transport-Security:
+      - max-age=15552001; includeSubDomains; preload,max-age=15552001; includeSubDomains;
+        preload
+      Vary:
+      - Accept-Encoding,x-protocol
+      X-Content-Type-Options:
+      - nosniff
+      X-Iinfo:
+      - 11-91293968-91296119 NNNN CT(0 0 0) RT(1573934034813 13041) q(0 0 0 0) r(9
+        9) U5
+      X-WR-MODIFICATION:
+      - Content-Length
+      X-XSS-Protection:
+      - 1; mode=block
+      x-cdn:
+      - Incapsula
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://www.interieur.gouv.fr/avotreservice/elections/telechargements/ER2019/resultatsT1/000/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/9WV0W7aMBSG73kKzxfcUccJELImqTrCtFQUEDChapoq4zjEW0gi26Cyp58TM7Wb
+        6LRq01Qu4iTyf875/hPFx38TTYfLu9kIfFjejsHs47txPASwg9DKGSIULSOz4VzY4D0vSI7QaALD
+        lp+pbR62gJ8xkug78BVXOQvjImEPoEwBIvtSCSaZ2HPKEMsZVbwsJFL1Y0bEhm1ZoSQazW0Le0hL
+        d7kiSi4xsizLRyafroCOJfx1mRzqyvgfVtHJWr4ia13KV0JfWejz7QZIQQOIOK1zrXNSfL3Y8BQC
+        kqsAfoqH088w1IiZCSAgEywN4NUwmFxOgwiGE7JlPiKnNbdacw3DMZEKbMuEp5wlz4oXRrzg355P
+        GBlNxCQVvKob8ChFjavGGaBlLitSBLCn6TPxRNEykgTsSc43WqHKCp7oBKE/NSKK56YRSR38yPQ3
+        nwWGMyL0Joi40GGlOBzNmBrtYi2ryx+v4Igr+CZTMASgA04qX+AxLfOEiT9xaXmepq3Xp4S/IGG3
+        c7MrOrVNgPHbrg3Aq4D33J6Gr9cXwONXA+828O5Zwg/6NbxezxK+6fzgTDs/aOAH/++H/f2hi8zk
+        afnm4AZEHgoK1KFi2ix7UOgL2ROzB4+e7+OCkkofl+R+zmS5E5RdLVY38d14dR242EucbuJgOmAO
+        6bN+mqZJ1+6lLrMcO3XahQxwm64D3HN7ttfHuG6TKVDjNBNWD8Vmtn8HCA3jQBsIAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '563'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Date:
+      - Sat, 16 Nov 2019 20:23:31 GMT
+      Server:
+      - Footprint Distributor V6.1.1162
+      Strict-Transport-Security:
+      - max-age=15552001; includeSubDomains; preload,max-age=15552001; includeSubDomains;
+        preload
+      Vary:
+      - Accept-Encoding,x-protocol
+      X-Content-Type-Options:
+      - nosniff
+      X-Iinfo:
+      - 5-219898849-219898892 NNNN CT(0 0 0) RT(1573934048795 186) q(0 0 0 0) r(5
+        5) U5
+      X-WR-MODIFICATION:
+      - Content-Length
+      X-XSS-Protection:
+      - 1; mode=block
+      x-cdn:
+      - Incapsula
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://www.interieur.gouv.fr/avotreservice/elections/telechargements/ER2019/resultatsT1/000/099/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/62U247aMBCG73mKqS+4A+fAoekmWW0JVbNlAQEVWlXVyiQOcTc4kW0o9OnrYKql
+        FbSq2osojvzNzP/P2PFfRZPB4nE6hPeLhxFMP74dxQNALYyX7gDjaBGZDbftwDvGSYHxcIzChp+r
+        TRE2wM8pSfUbfMVUQcOYp3QPZQaY7EolqKRixxKKaUETxUousaqXORFruqFcSTycOZbtYY1uC0WU
+        XNjYsixseZ6PTU5dBZ/K+KsyPdTV7f9cSSds+IqsdDlfCf3koc82a5AiCRBmSZ1vVRD+3F6zDAEp
+        VIA+xYPJZxRqmbkJIJALmgXodhCMbyZBhMIx2VAfk8vMg2buUDgiUsGmTFnGaHoVnht4zr5dTxgZ
+        JqIyEayqm/CC4qOrozNIykJWhAeoq9Xn4oxoGCSFHSnYWhOqrNCFTpDkp0ZE8cw0Iq2DXzT962hQ
+        OCVCAxAxoUNLcTgZMnWafCWrmx+fcJIs2DpXKARowUXyL3xu+TMvv/JzqwBw0ao+Re39pkDhaXEu
+        9Bdldr91v+Wt2jHY9puODXDNg+19+JOH348TmzPd8M2RACIPPAF1qKj2TPcKfyE7YvbQyfpTzBNS
+        6UGQpxmV5VYk9Ha+vI8fR8u7oG97qdtJXTt5TV3So70sy9KO08361HKdzG1yGTjNZBW4Pc/pd7te
+        3SuTv1ZzvL76th1/Ht8BpYYh7HwEAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '536'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Date:
+      - Sat, 16 Nov 2019 20:23:31 GMT
+      Server:
+      - Footprint Distributor V6.1.1162
+      Strict-Transport-Security:
+      - max-age=15552001; includeSubDomains; preload,max-age=15552001; includeSubDomains;
+        preload
+      Vary:
+      - Accept-Encoding,x-protocol
+      X-Content-Type-Options:
+      - nosniff
+      X-Iinfo:
+      - 10-71456635-71456653 NNNN CT(0 0 0) RT(1573934050043 213) q(0 0 0 0) r(2 2)
+        U5
+      X-WR-MODIFICATION:
+      - Content-Length
+      X-XSS-Protection:
+      - 1; mode=block
+      x-cdn:
+      - Incapsula
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://www.interieur.gouv.fr/avotreservice/elections/telechargements/ER2019/resultatsT1/000/975/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAA/9WVXW/aMBSG7/kVZ77gDhwTPsqapOpIp6WlgCgTq6apMo5DvCYOcgyD/fo5JGvZ
+        RCdNq5B2EeVEfn3O+xxHx84bfzyY3U+u4MPsdgiTj++GwQBQA+O5PcDYn/nlgt1swXshaYLx1Qh5
+        NSfWaeLVwIk5Dc0bHC10wr1AhnwLWQSYbjKteM7VRjCOecKZFpnMsS7CmKolT7nUOb6atizSx0a6
+        TjTV+Yxgy7Jwv9dxcJnTVMFVGWeRhbuiOnnlSiZhzdF0Yco5Wpkn9hyRLiFXzEVYsCLfIqHysbkU
+        EQKaaBd9DgbjL8gzNuNyA4VY8chFFwN3dD52feSNaModTI9rbo3mEnlDmmtIs1BEgocviu9K8Z34
+        /nJCv9T4PGdKrIomPEvxnmpPBixL8hWVLuoY97E6UNRKSQgbmoilUehshY50grJfGuEH07IRYbH5
+        2dO/Hg3yJlQZAfhCma2Z2lVAZZ26XOSr85+fUFlWYhlr5AE04KjyLzjX8lFm3+QhKgAcRTV/UXOb
+        JsirgkOjvzkjvcb1WjYKYiDkbZsAvMRA+jenZQj8T08YVfwqJKRpnZiEZekTSRW/zpm0T03SscgT
+        SRX/p39Xx2odkLROSvLnsYfL2V9zytEJNN9JBnq34oacbzX+Sje0XENVAx4CyejKDCz6MOV5tlaM
+        X9zNr4P74fzS7ZF+aLdDm7AzbtMu70ZRFLZbnajHLbsV2XWZu6TOFu5Zt9vv2Fav8ITLAoWd/T1n
+        rqX9LfsDTbLfqqUHAAA=
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '584'
+      Content-Type:
+      - text/html;charset=UTF-8
+      Date:
+      - Sat, 16 Nov 2019 20:23:31 GMT
+      Server:
+      - Footprint Distributor V6.1.1162
+      Strict-Transport-Security:
+      - max-age=15552001; includeSubDomains; preload,max-age=15552001; includeSubDomains;
+        preload
+      Vary:
+      - Accept-Encoding,x-protocol
+      X-Content-Type-Options:
+      - nosniff
+      X-Iinfo:
+      - 8-249951802-249951863 NNNN CT(0 0 0) RT(1573934435583 186) q(0 0 0 0) r(2
+        2) U5
+      X-WR-MODIFICATION:
+      - Content-Length
+      X-XSS-Protection:
+      - 1; mode=block
+      x-cdn:
+      - Incapsula
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://www.interieur.gouv.fr/avotreservice/elections/telechargements/ER2019/resultatsT1/000/975/975com.xml
+  response:
+    body:
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Election>\n  <Scrutin>\n\
+        \    <Type>Europ\xE9ennes</Type>\n    <Annee>2019</Annee>\n  </Scrutin>\n\
+        \  <Departement>\n    <CodReg/>\n    <CodReg3Car>000</CodReg3Car>\n    <LibReg/>\n\
+        \    <CodDpt>ZS</CodDpt>\n    <CodMinDpt>975</CodMinDpt>\n    <CodDpt3Car>975</CodDpt3Car>\n\
+        \    <LibDpt>Saint-Pierre-et-Miquelon</LibDpt>\n    <Communes>\n      <Commune>\n\
+        \        <CodSubCom>501</CodSubCom>\n        <LibSubCom>Miquelon-Langlade</LibSubCom>\n\
+        \        <Tours>\n          <Tour>\n            <NumTour>1</NumTour>\n   \
+        \         <Mentions>\n              <Inscrits>\n                <Nombre>495</Nombre>\n\
+        \              </Inscrits>\n              <Abstentions>\n                <Nombre>373</Nombre>\n\
+        \                <RapportInscrit>  75,35</RapportInscrit>\n              </Abstentions>\n\
+        \              <Votants>\n                <Nombre>122</Nombre>\n         \
+        \       <RapportInscrit>  24,65</RapportInscrit>\n              </Votants>\n\
+        \              <Blancs>\n                <Nombre>3</Nombre>\n            \
+        \    <RapportInscrit>   0,61</RapportInscrit>\n                <RapportVotant>\
+        \   2,46</RapportVotant>\n              </Blancs>\n              <Nuls>\n\
+        \                <Nombre>5</Nombre>\n                <RapportInscrit>   1,01</RapportInscrit>\n\
+        \                <RapportVotant>   4,10</RapportVotant>\n              </Nuls>\n\
+        \              <Exprimes>\n                <Nombre>114</Nombre>\n        \
+        \        <RapportInscrit>  23,03</RapportInscrit>\n                <RapportVotant>\
+        \  93,44</RapportVotant>\n              </Exprimes>\n            </Mentions>\n\
+        \            <Resultats>\n              <Listes>\n                <Liste>\n\
+        \                  <CodSeqLisCand>FEL017</CodSeqLisCand>\n               \
+        \   <NumListe>1</NumListe>\n                  <NomListe>LA FRANCE INSOUMISE</NomListe>\n\
+        \                  <NomTeteListe>AUBRY</NomTeteListe>\n                  <PrenomTeteListe>Manon</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n          \
+        \        <NbVoix>9</NbVoix>\n                  <RapportExprime>   7,89</RapportExprime>\n\
+        \                  <RapportInscrit>   1,82</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL008</CodSeqLisCand>\n\
+        \                  <NumListe>2</NumListe>\n                  <NomListe>UNE\
+        \ FRANCE ROYALE AU COEUR DE L&apos;EUROPE</NomListe>\n                  <NomTeteListe>DE\
+        \ PREVOISIN</NomTeteListe>\n                  <PrenomTeteListe>Robert</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL033</CodSeqLisCand>\n\
+        \                  <NumListe>3</NumListe>\n                  <NomListe>LA\
+        \ LIGNE CLAIRE</NomListe>\n                  <NomTeteListe>CAMUS</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Renaud</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL035</CodSeqLisCand>\n\
+        \                  <NumListe>4</NumListe>\n                  <NomListe>PARTI\
+        \ PIRATE</NomListe>\n                  <NomTeteListe>MARIE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Florie</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>Mme</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL019</CodSeqLisCand>\n\
+        \                  <NumListe>5</NumListe>\n                  <NomListe>RENAISSANCE\
+        \ SOUTENUE PAR LA R\xC9PUBLIQUE EN MARCHE, LE MODEM ET SES PARTENAIRES</NomListe>\n\
+        \                  <NomTeteListe>LOISEAU</NomTeteListe>\n                \
+        \  <PrenomTeteListe>Nathalie</PrenomTeteListe>\n                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n\
+        \                  <NbVoix>30</NbVoix>\n                  <RapportExprime>\
+        \  26,32</RapportExprime>\n                  <RapportInscrit>   6,06</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL028</CodSeqLisCand>\n\
+        \                  <NumListe>6</NumListe>\n                  <NomListe>D\xC9\
+        MOCRATIE REPR\xC9SENTATIVE</NomListe>\n                  <NomTeteListe>TRAOR\xC9\
+        </NomTeteListe>\n                  <PrenomTeteListe>Hamada</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL023</CodSeqLisCand>\n\
+        \                  <NumListe>7</NumListe>\n                  <NomListe>ENSEMBLE\
+        \ PATRIOTES ET GILETS JAUNES : POUR LA FRANCE, SORTONS DE L&apos;UNION EUROP\xC9\
+        ENNE !</NomListe>\n                  <NomTeteListe>PHILIPPOT</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Florian</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL006</CodSeqLisCand>\n\
+        \                  <NumListe>8</NumListe>\n                  <NomListe>PACE\
+        \ - PARTI DES CITOYENS EUROP\xC9ENS</NomListe>\n                  <NomTeteListe>ALEXANDRE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Audric</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL007</CodSeqLisCand>\n\
+        \                  <NumListe>9</NumListe>\n                  <NomListe>URGENCE\
+        \ \xC9COLOGIE</NomListe>\n                  <NomTeteListe>BOURG</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Dominique</PrenomTeteListe>\n        \
+        \          <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL027</CodSeqLisCand>\n\
+        \                  <NumListe>10</NumListe>\n                  <NomListe>LISTE\
+        \ DE LA RECONQU\xCATE</NomListe>\n                  <NomTeteListe>VAUCLIN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Vincent</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL011</CodSeqLisCand>\n\
+        \                  <NumListe>11</NumListe>\n                  <NomListe>LES\
+        \ EUROP\xC9ENS</NomListe>\n                  <NomTeteListe>LAGARDE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Jean-Christophe</PrenomTeteListe>\n  \
+        \                <CiviliteTeteListe>M.</CiviliteTeteListe>\n             \
+        \     <NbVoix>1</NbVoix>\n                  <RapportExprime>   0,88</RapportExprime>\n\
+        \                  <RapportInscrit>   0,20</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL022</CodSeqLisCand>\n\
+        \                  <NumListe>12</NumListe>\n                  <NomListe>ENVIE\
+        \ D&apos;EUROPE \xC9COLOGIQUE ET SOCIALE</NomListe>\n                  <NomTeteListe>GLUCKSMANN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Rapha\xEBl</PrenomTeteListe>\n       \
+        \           <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>11</NbVoix>\n\
+        \                  <RapportExprime>   9,65</RapportExprime>\n            \
+        \      <RapportInscrit>   2,22</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL025</CodSeqLisCand>\n\
+        \                  <NumListe>13</NumListe>\n                  <NomListe>PARTI\
+        \ F\xC9D\xC9RALISTE EUROP\xC9EN - POUR UNE EUROPE QUI PROT\xC8GE SES CITOYENS</NomListe>\n\
+        \                  <NomTeteListe>GERNIGON</NomTeteListe>\n               \
+        \   <PrenomTeteListe>Yves</PrenomTeteListe>\n                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n\
+        \                  <NbVoix>0</NbVoix>\n                  <RapportExprime>\
+        \   0,00</RapportExprime>\n                  <RapportInscrit>   0,00</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL014</CodSeqLisCand>\n\
+        \                  <NumListe>14</NumListe>\n                  <NomListe>MOUVEMENT\
+        \ POUR L&apos;INITIATIVE CITOYENNE</NomListe>\n                  <NomTeteListe>HELGEN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Gilles</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL024</CodSeqLisCand>\n\
+        \                  <NumListe>15</NumListe>\n                  <NomListe>LE\
+        \ COURAGE DE D\xC9FENDRE LES FRAN\xC7AIS AVEC NICOLAS DUPONT-AIGNAN. DEBOUT\
+        \ LA FRANCE ! - CNIP</NomListe>\n                  <NomTeteListe>DUPONT-AIGNAN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Nicolas</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL012</CodSeqLisCand>\n\
+        \                  <NumListe>16</NumListe>\n                  <NomListe>ALLONS\
+        \ ENFANTS</NomListe>\n                  <NomTeteListe>CAILLAUD</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Sophie</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>Mme</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL016</CodSeqLisCand>\n\
+        \                  <NumListe>17</NumListe>\n                  <NomListe>D\xC9\
+        CROISSANCE 2019</NomListe>\n                  <NomTeteListe>DELFEL</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Th\xE9r\xE8se</PrenomTeteListe>\n    \
+        \              <CiviliteTeteListe>Mme</CiviliteTeteListe>\n              \
+        \    <NbVoix>1</NbVoix>\n                  <RapportExprime>   0,88</RapportExprime>\n\
+        \                  <RapportInscrit>   0,20</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL004</CodSeqLisCand>\n\
+        \                  <NumListe>18</NumListe>\n                  <NomListe>LUTTE\
+        \ OUVRI\xC8RE - CONTRE LE GRAND CAPITAL, LE CAMP DES TRAVAILLEURS</NomListe>\n\
+        \                  <NomTeteListe>ARTHAUD</NomTeteListe>\n                \
+        \  <PrenomTeteListe>Nathalie</PrenomTeteListe>\n                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n\
+        \                  <NbVoix>3</NbVoix>\n                  <RapportExprime>\
+        \   2,63</RapportExprime>\n                  <RapportInscrit>   0,61</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL003</CodSeqLisCand>\n\
+        \                  <NumListe>19</NumListe>\n                  <NomListe>POUR\
+        \ L&apos;EUROPE DES GENS CONTRE L&apos;EUROPE DE L&apos;ARGENT</NomListe>\n\
+        \                  <NomTeteListe>BROSSAT</NomTeteListe>\n                \
+        \  <PrenomTeteListe>Ian</PrenomTeteListe>\n                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n\
+        \                  <NbVoix>2</NbVoix>\n                  <RapportExprime>\
+        \   1,75</RapportExprime>\n                  <RapportInscrit>   0,40</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL020</CodSeqLisCand>\n\
+        \                  <NumListe>20</NumListe>\n                  <NomListe>ENSEMBLE\
+        \ POUR LE FREXIT</NomListe>\n                  <NomTeteListe>ASSELINEAU</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Fran\xE7ois</PrenomTeteListe>\n      \
+        \            <CiviliteTeteListe>M.</CiviliteTeteListe>\n                 \
+        \ <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL018</CodSeqLisCand>\n\
+        \                  <NumListe>21</NumListe>\n                  <NomListe>LISTE\
+        \ CITOYENNE DU PRINTEMPS EUROP\xC9EN AVEC BENO\xCET HAMON SOUTENUE PAR G\xC9\
+        N\xC9RATION.S ET D\xC8ME-DIEM 25</NomListe>\n                  <NomTeteListe>HAMON</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Beno\xEEt</PrenomTeteListe>\n        \
+        \          <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>9</NbVoix>\n\
+        \                  <RapportExprime>   7,89</RapportExprime>\n            \
+        \      <RapportInscrit>   1,82</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL029</CodSeqLisCand>\n\
+        \                  <NumListe>22</NumListe>\n                  <NomListe>\xC0\
+        \ VOIX \xC9GALES</NomListe>\n                  <NomTeteListe>TOMASINI</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Nathalie</PrenomTeteListe>\n         \
+        \         <CiviliteTeteListe>Mme</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL005</CodSeqLisCand>\n\
+        \                  <NumListe>23</NumListe>\n                  <NomListe>PRENEZ\
+        \ LE POUVOIR, LISTE SOUTENUE PAR MARINE LE PEN</NomListe>\n              \
+        \    <NomTeteListe>BARDELLA</NomTeteListe>\n                  <PrenomTeteListe>Jordan</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>25</NbVoix>\n                  <RapportExprime>  21,93</RapportExprime>\n\
+        \                  <RapportInscrit>   5,05</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL032</CodSeqLisCand>\n\
+        \                  <NumListe>24</NumListe>\n                  <NomListe>NEUTRE\
+        \ ET ACTIF</NomListe>\n                  <NomTeteListe>CORBET</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Cathy Denise Ginette</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n          \
+        \        <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL030</CodSeqLisCand>\n\
+        \                  <NumListe>25</NumListe>\n                  <NomListe>PARTI\
+        \ R\xC9VOLUTIONNAIRE COMMUNISTES</NomListe>\n                  <NomTeteListe>SANCHEZ</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Antonio</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL015</CodSeqLisCand>\n\
+        \                  <NumListe>26</NumListe>\n                  <NomListe>ESP\xC9\
+        RANTO - LANGUE COMMUNE \xC9QUITABLE POUR L&apos;EUROPE</NomListe>\n      \
+        \            <NomTeteListe>DIEUMEGARD</NomTeteListe>\n                  <PrenomTeteListe>Pierre</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL031</CodSeqLisCand>\n\
+        \                  <NumListe>27</NumListe>\n                  <NomListe>\xC9\
+        VOLUTION CITOYENNE</NomListe>\n                  <NomTeteListe>CHALEN\xC7\
+        ON</NomTeteListe>\n                  <PrenomTeteListe>Christophe</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL021</CodSeqLisCand>\n\
+        \                  <NumListe>28</NumListe>\n                  <NomListe>ALLIANCE\
+        \ JAUNE, LA R\xC9VOLTE PAR LE VOTE</NomListe>\n                  <NomTeteListe>LALANNE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Francis</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL013</CodSeqLisCand>\n\
+        \                  <NumListe>29</NumListe>\n                  <NomListe>UNION\
+        \ DE LA DROITE ET DU CENTRE</NomListe>\n                  <NomTeteListe>BELLAMY</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Fran\xE7ois-Xavier</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>12</NbVoix>\n                  <RapportExprime>  10,53</RapportExprime>\n\
+        \                  <RapportInscrit>   2,42</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL010</CodSeqLisCand>\n\
+        \                  <NumListe>30</NumListe>\n                  <NomListe>EUROPE\
+        \ \xC9COLOGIE</NomListe>\n                  <NomTeteListe>JADOT</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Yannick</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>11</NbVoix>\n\
+        \                  <RapportExprime>   9,65</RapportExprime>\n            \
+        \      <RapportInscrit>   2,22</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL009</CodSeqLisCand>\n\
+        \                  <NumListe>31</NumListe>\n                  <NomListe>PARTI\
+        \ ANIMALISTE</NomListe>\n                  <NomTeteListe>THOUY</NomTeteListe>\n\
+        \                  <PrenomTeteListe>H\xE9l\xE8ne</PrenomTeteListe>\n     \
+        \             <CiviliteTeteListe>Mme</CiviliteTeteListe>\n               \
+        \   <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL002</CodSeqLisCand>\n\
+        \                  <NumListe>32</NumListe>\n                  <NomListe>LES\
+        \ OUBLI\xC9S DE L&apos;EUROPE - ARTISANS, COMMER\xC7ANTS, PROFESSIONS LIB\xC9\
+        RALES ET IND\xC9PENDANTS - ACPLI -</NomListe>\n                  <NomTeteListe>BIDOU</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Olivier</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL026</CodSeqLisCand>\n\
+        \                  <NumListe>33</NumListe>\n                  <NomListe>UDLEF\
+        \ (UNION D\xC9MOCRATIQUE POUR LA LIBERT\xC9 \xC9GALIT\xC9 FRATERNIT\xC9)</NomListe>\n\
+        \                  <NomTeteListe>PERSON</NomTeteListe>\n                 \
+        \ <PrenomTeteListe>Christian Luc</PrenomTeteListe>\n                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n\
+        \                  <NbVoix>0</NbVoix>\n                  <RapportExprime>\
+        \   0,00</RapportExprime>\n                  <RapportInscrit>   0,00</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL034</CodSeqLisCand>\n\
+        \                  <NumListe>34</NumListe>\n                  <NomListe>UNE\
+        \ EUROPE AU SERVICE DES PEUPLES</NomListe>\n                  <NomTeteListe>AZERGUI</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Nagib</PrenomTeteListe>\n            \
+        \      <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \              </Listes>\n            </Resultats>\n          </Tour>\n  \
+        \      </Tours>\n      </Commune>\n      <Commune>\n        <CodSubCom>502</CodSubCom>\n\
+        \        <LibSubCom>Saint-Pierre</LibSubCom>\n        <Tours>\n          <Tour>\n\
+        \            <NumTour>1</NumTour>\n            <Mentions>\n              <Inscrits>\n\
+        \                <Nombre>4463</Nombre>\n              </Inscrits>\n      \
+        \        <Abstentions>\n                <Nombre>3157</Nombre>\n          \
+        \      <RapportInscrit>  70,74</RapportInscrit>\n              </Abstentions>\n\
+        \              <Votants>\n                <Nombre>1306</Nombre>\n        \
+        \        <RapportInscrit>  29,26</RapportInscrit>\n              </Votants>\n\
+        \              <Blancs>\n                <Nombre>57</Nombre>\n           \
+        \     <RapportInscrit>   1,28</RapportInscrit>\n                <RapportVotant>\
+        \   4,36</RapportVotant>\n              </Blancs>\n              <Nuls>\n\
+        \                <Nombre>60</Nombre>\n                <RapportInscrit>   1,34</RapportInscrit>\n\
+        \                <RapportVotant>   4,59</RapportVotant>\n              </Nuls>\n\
+        \              <Exprimes>\n                <Nombre>1189</Nombre>\n       \
+        \         <RapportInscrit>  26,64</RapportInscrit>\n                <RapportVotant>\
+        \  91,04</RapportVotant>\n              </Exprimes>\n            </Mentions>\n\
+        \            <Resultats>\n              <Listes>\n                <Liste>\n\
+        \                  <CodSeqLisCand>FEL017</CodSeqLisCand>\n               \
+        \   <NumListe>1</NumListe>\n                  <NomListe>LA FRANCE INSOUMISE</NomListe>\n\
+        \                  <NomTeteListe>AUBRY</NomTeteListe>\n                  <PrenomTeteListe>Manon</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n          \
+        \        <NbVoix>146</NbVoix>\n                  <RapportExprime>  12,28</RapportExprime>\n\
+        \                  <RapportInscrit>   3,27</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL008</CodSeqLisCand>\n\
+        \                  <NumListe>2</NumListe>\n                  <NomListe>UNE\
+        \ FRANCE ROYALE AU COEUR DE L&apos;EUROPE</NomListe>\n                  <NomTeteListe>DE\
+        \ PREVOISIN</NomTeteListe>\n                  <PrenomTeteListe>Robert</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>1</NbVoix>\n                  <RapportExprime>   0,08</RapportExprime>\n\
+        \                  <RapportInscrit>   0,02</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL033</CodSeqLisCand>\n\
+        \                  <NumListe>3</NumListe>\n                  <NomListe>LA\
+        \ LIGNE CLAIRE</NomListe>\n                  <NomTeteListe>CAMUS</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Renaud</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL035</CodSeqLisCand>\n\
+        \                  <NumListe>4</NumListe>\n                  <NomListe>PARTI\
+        \ PIRATE</NomListe>\n                  <NomTeteListe>MARIE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Florie</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>Mme</CiviliteTeteListe>\n                  <NbVoix>4</NbVoix>\n\
+        \                  <RapportExprime>   0,34</RapportExprime>\n            \
+        \      <RapportInscrit>   0,09</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL019</CodSeqLisCand>\n\
+        \                  <NumListe>5</NumListe>\n                  <NomListe>RENAISSANCE\
+        \ SOUTENUE PAR LA R\xC9PUBLIQUE EN MARCHE, LE MODEM ET SES PARTENAIRES</NomListe>\n\
+        \                  <NomTeteListe>LOISEAU</NomTeteListe>\n                \
+        \  <PrenomTeteListe>Nathalie</PrenomTeteListe>\n                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n\
+        \                  <NbVoix>208</NbVoix>\n                  <RapportExprime>\
+        \  17,49</RapportExprime>\n                  <RapportInscrit>   4,66</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL028</CodSeqLisCand>\n\
+        \                  <NumListe>6</NumListe>\n                  <NomListe>D\xC9\
+        MOCRATIE REPR\xC9SENTATIVE</NomListe>\n                  <NomTeteListe>TRAOR\xC9\
+        </NomTeteListe>\n                  <PrenomTeteListe>Hamada</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL023</CodSeqLisCand>\n\
+        \                  <NumListe>7</NumListe>\n                  <NomListe>ENSEMBLE\
+        \ PATRIOTES ET GILETS JAUNES : POUR LA FRANCE, SORTONS DE L&apos;UNION EUROP\xC9\
+        ENNE !</NomListe>\n                  <NomTeteListe>PHILIPPOT</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Florian</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL006</CodSeqLisCand>\n\
+        \                  <NumListe>8</NumListe>\n                  <NomListe>PACE\
+        \ - PARTI DES CITOYENS EUROP\xC9ENS</NomListe>\n                  <NomTeteListe>ALEXANDRE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Audric</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL007</CodSeqLisCand>\n\
+        \                  <NumListe>9</NumListe>\n                  <NomListe>URGENCE\
+        \ \xC9COLOGIE</NomListe>\n                  <NomTeteListe>BOURG</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Dominique</PrenomTeteListe>\n        \
+        \          <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>2</NbVoix>\n\
+        \                  <RapportExprime>   0,17</RapportExprime>\n            \
+        \      <RapportInscrit>   0,04</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL027</CodSeqLisCand>\n\
+        \                  <NumListe>10</NumListe>\n                  <NomListe>LISTE\
+        \ DE LA RECONQU\xCATE</NomListe>\n                  <NomTeteListe>VAUCLIN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Vincent</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL011</CodSeqLisCand>\n\
+        \                  <NumListe>11</NumListe>\n                  <NomListe>LES\
+        \ EUROP\xC9ENS</NomListe>\n                  <NomTeteListe>LAGARDE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Jean-Christophe</PrenomTeteListe>\n  \
+        \                <CiviliteTeteListe>M.</CiviliteTeteListe>\n             \
+        \     <NbVoix>24</NbVoix>\n                  <RapportExprime>   2,02</RapportExprime>\n\
+        \                  <RapportInscrit>   0,54</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL022</CodSeqLisCand>\n\
+        \                  <NumListe>12</NumListe>\n                  <NomListe>ENVIE\
+        \ D&apos;EUROPE \xC9COLOGIQUE ET SOCIALE</NomListe>\n                  <NomTeteListe>GLUCKSMANN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Rapha\xEBl</PrenomTeteListe>\n       \
+        \           <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>132</NbVoix>\n\
+        \                  <RapportExprime>  11,10</RapportExprime>\n            \
+        \      <RapportInscrit>   2,96</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL025</CodSeqLisCand>\n\
+        \                  <NumListe>13</NumListe>\n                  <NomListe>PARTI\
+        \ F\xC9D\xC9RALISTE EUROP\xC9EN - POUR UNE EUROPE QUI PROT\xC8GE SES CITOYENS</NomListe>\n\
+        \                  <NomTeteListe>GERNIGON</NomTeteListe>\n               \
+        \   <PrenomTeteListe>Yves</PrenomTeteListe>\n                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n\
+        \                  <NbVoix>0</NbVoix>\n                  <RapportExprime>\
+        \   0,00</RapportExprime>\n                  <RapportInscrit>   0,00</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL014</CodSeqLisCand>\n\
+        \                  <NumListe>14</NumListe>\n                  <NomListe>MOUVEMENT\
+        \ POUR L&apos;INITIATIVE CITOYENNE</NomListe>\n                  <NomTeteListe>HELGEN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Gilles</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL024</CodSeqLisCand>\n\
+        \                  <NumListe>15</NumListe>\n                  <NomListe>LE\
+        \ COURAGE DE D\xC9FENDRE LES FRAN\xC7AIS AVEC NICOLAS DUPONT-AIGNAN. DEBOUT\
+        \ LA FRANCE ! - CNIP</NomListe>\n                  <NomTeteListe>DUPONT-AIGNAN</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Nicolas</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL012</CodSeqLisCand>\n\
+        \                  <NumListe>16</NumListe>\n                  <NomListe>ALLONS\
+        \ ENFANTS</NomListe>\n                  <NomTeteListe>CAILLAUD</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Sophie</PrenomTeteListe>\n           \
+        \       <CiviliteTeteListe>Mme</CiviliteTeteListe>\n                  <NbVoix>2</NbVoix>\n\
+        \                  <RapportExprime>   0,17</RapportExprime>\n            \
+        \      <RapportInscrit>   0,04</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL016</CodSeqLisCand>\n\
+        \                  <NumListe>17</NumListe>\n                  <NomListe>D\xC9\
+        CROISSANCE 2019</NomListe>\n                  <NomTeteListe>DELFEL</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Th\xE9r\xE8se</PrenomTeteListe>\n    \
+        \              <CiviliteTeteListe>Mme</CiviliteTeteListe>\n              \
+        \    <NbVoix>3</NbVoix>\n                  <RapportExprime>   0,25</RapportExprime>\n\
+        \                  <RapportInscrit>   0,07</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL004</CodSeqLisCand>\n\
+        \                  <NumListe>18</NumListe>\n                  <NomListe>LUTTE\
+        \ OUVRI\xC8RE - CONTRE LE GRAND CAPITAL, LE CAMP DES TRAVAILLEURS</NomListe>\n\
+        \                  <NomTeteListe>ARTHAUD</NomTeteListe>\n                \
+        \  <PrenomTeteListe>Nathalie</PrenomTeteListe>\n                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n\
+        \                  <NbVoix>14</NbVoix>\n                  <RapportExprime>\
+        \   1,18</RapportExprime>\n                  <RapportInscrit>   0,31</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL003</CodSeqLisCand>\n\
+        \                  <NumListe>19</NumListe>\n                  <NomListe>POUR\
+        \ L&apos;EUROPE DES GENS CONTRE L&apos;EUROPE DE L&apos;ARGENT</NomListe>\n\
+        \                  <NomTeteListe>BROSSAT</NomTeteListe>\n                \
+        \  <PrenomTeteListe>Ian</PrenomTeteListe>\n                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n\
+        \                  <NbVoix>18</NbVoix>\n                  <RapportExprime>\
+        \   1,51</RapportExprime>\n                  <RapportInscrit>   0,40</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL020</CodSeqLisCand>\n\
+        \                  <NumListe>20</NumListe>\n                  <NomListe>ENSEMBLE\
+        \ POUR LE FREXIT</NomListe>\n                  <NomTeteListe>ASSELINEAU</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Fran\xE7ois</PrenomTeteListe>\n      \
+        \            <CiviliteTeteListe>M.</CiviliteTeteListe>\n                 \
+        \ <NbVoix>20</NbVoix>\n                  <RapportExprime>   1,68</RapportExprime>\n\
+        \                  <RapportInscrit>   0,45</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL018</CodSeqLisCand>\n\
+        \                  <NumListe>21</NumListe>\n                  <NomListe>LISTE\
+        \ CITOYENNE DU PRINTEMPS EUROP\xC9EN AVEC BENO\xCET HAMON SOUTENUE PAR G\xC9\
+        N\xC9RATION.S ET D\xC8ME-DIEM 25</NomListe>\n                  <NomTeteListe>HAMON</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Beno\xEEt</PrenomTeteListe>\n        \
+        \          <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>61</NbVoix>\n\
+        \                  <RapportExprime>   5,13</RapportExprime>\n            \
+        \      <RapportInscrit>   1,37</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL029</CodSeqLisCand>\n\
+        \                  <NumListe>22</NumListe>\n                  <NomListe>\xC0\
+        \ VOIX \xC9GALES</NomListe>\n                  <NomTeteListe>TOMASINI</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Nathalie</PrenomTeteListe>\n         \
+        \         <CiviliteTeteListe>Mme</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL005</CodSeqLisCand>\n\
+        \                  <NumListe>23</NumListe>\n                  <NomListe>PRENEZ\
+        \ LE POUVOIR, LISTE SOUTENUE PAR MARINE LE PEN</NomListe>\n              \
+        \    <NomTeteListe>BARDELLA</NomTeteListe>\n                  <PrenomTeteListe>Jordan</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>288</NbVoix>\n                  <RapportExprime>  24,22</RapportExprime>\n\
+        \                  <RapportInscrit>   6,45</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL032</CodSeqLisCand>\n\
+        \                  <NumListe>24</NumListe>\n                  <NomListe>NEUTRE\
+        \ ET ACTIF</NomListe>\n                  <NomTeteListe>CORBET</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Cathy Denise Ginette</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>Mme</CiviliteTeteListe>\n          \
+        \        <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL030</CodSeqLisCand>\n\
+        \                  <NumListe>25</NumListe>\n                  <NomListe>PARTI\
+        \ R\xC9VOLUTIONNAIRE COMMUNISTES</NomListe>\n                  <NomTeteListe>SANCHEZ</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Antonio</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL015</CodSeqLisCand>\n\
+        \                  <NumListe>26</NumListe>\n                  <NomListe>ESP\xC9\
+        RANTO - LANGUE COMMUNE \xC9QUITABLE POUR L&apos;EUROPE</NomListe>\n      \
+        \            <NomTeteListe>DIEUMEGARD</NomTeteListe>\n                  <PrenomTeteListe>Pierre</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL031</CodSeqLisCand>\n\
+        \                  <NumListe>27</NumListe>\n                  <NomListe>\xC9\
+        VOLUTION CITOYENNE</NomListe>\n                  <NomTeteListe>CHALEN\xC7\
+        ON</NomTeteListe>\n                  <PrenomTeteListe>Christophe</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>0</NbVoix>\n                  <RapportExprime>   0,00</RapportExprime>\n\
+        \                  <RapportInscrit>   0,00</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL021</CodSeqLisCand>\n\
+        \                  <NumListe>28</NumListe>\n                  <NomListe>ALLIANCE\
+        \ JAUNE, LA R\xC9VOLTE PAR LE VOTE</NomListe>\n                  <NomTeteListe>LALANNE</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Francis</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL013</CodSeqLisCand>\n\
+        \                  <NumListe>29</NumListe>\n                  <NomListe>UNION\
+        \ DE LA DROITE ET DU CENTRE</NomListe>\n                  <NomTeteListe>BELLAMY</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Fran\xE7ois-Xavier</PrenomTeteListe>\n\
+        \                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n           \
+        \       <NbVoix>79</NbVoix>\n                  <RapportExprime>   6,64</RapportExprime>\n\
+        \                  <RapportInscrit>   1,77</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL010</CodSeqLisCand>\n\
+        \                  <NumListe>30</NumListe>\n                  <NomListe>EUROPE\
+        \ \xC9COLOGIE</NomListe>\n                  <NomTeteListe>JADOT</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Yannick</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>178</NbVoix>\n\
+        \                  <RapportExprime>  14,97</RapportExprime>\n            \
+        \      <RapportInscrit>   3,99</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL009</CodSeqLisCand>\n\
+        \                  <NumListe>31</NumListe>\n                  <NomListe>PARTI\
+        \ ANIMALISTE</NomListe>\n                  <NomTeteListe>THOUY</NomTeteListe>\n\
+        \                  <PrenomTeteListe>H\xE9l\xE8ne</PrenomTeteListe>\n     \
+        \             <CiviliteTeteListe>Mme</CiviliteTeteListe>\n               \
+        \   <NbVoix>7</NbVoix>\n                  <RapportExprime>   0,59</RapportExprime>\n\
+        \                  <RapportInscrit>   0,16</RapportInscrit>\n            \
+        \    </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL002</CodSeqLisCand>\n\
+        \                  <NumListe>32</NumListe>\n                  <NomListe>LES\
+        \ OUBLI\xC9S DE L&apos;EUROPE - ARTISANS, COMMER\xC7ANTS, PROFESSIONS LIB\xC9\
+        RALES ET IND\xC9PENDANTS - ACPLI -</NomListe>\n                  <NomTeteListe>BIDOU</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Olivier</PrenomTeteListe>\n          \
+        \        <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>1</NbVoix>\n\
+        \                  <RapportExprime>   0,08</RapportExprime>\n            \
+        \      <RapportInscrit>   0,02</RapportInscrit>\n                </Liste>\n\
+        \                <Liste>\n                  <CodSeqLisCand>FEL026</CodSeqLisCand>\n\
+        \                  <NumListe>33</NumListe>\n                  <NomListe>UDLEF\
+        \ (UNION D\xC9MOCRATIQUE POUR LA LIBERT\xC9 \xC9GALIT\xC9 FRATERNIT\xC9)</NomListe>\n\
+        \                  <NomTeteListe>PERSON</NomTeteListe>\n                 \
+        \ <PrenomTeteListe>Christian Luc</PrenomTeteListe>\n                  <CiviliteTeteListe>M.</CiviliteTeteListe>\n\
+        \                  <NbVoix>1</NbVoix>\n                  <RapportExprime>\
+        \   0,08</RapportExprime>\n                  <RapportInscrit>   0,02</RapportInscrit>\n\
+        \                </Liste>\n                <Liste>\n                  <CodSeqLisCand>FEL034</CodSeqLisCand>\n\
+        \                  <NumListe>34</NumListe>\n                  <NomListe>UNE\
+        \ EUROPE AU SERVICE DES PEUPLES</NomListe>\n                  <NomTeteListe>AZERGUI</NomTeteListe>\n\
+        \                  <PrenomTeteListe>Nagib</PrenomTeteListe>\n            \
+        \      <CiviliteTeteListe>M.</CiviliteTeteListe>\n                  <NbVoix>0</NbVoix>\n\
+        \                  <RapportExprime>   0,00</RapportExprime>\n            \
+        \      <RapportInscrit>   0,00</RapportInscrit>\n                </Liste>\n\
+        \              </Listes>\n            </Resultats>\n          </Tour>\n  \
+        \      </Tours>\n      </Commune>\n    </Communes>\n  </Departement>\n</Election>\n"
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - close
+      Content-Length:
+      - '41202'
+      Content-Type:
+      - application/xml
+      Date:
+      - Sat, 16 Nov 2019 20:23:31 GMT
+      ETag:
+      - '"a8b916289bc11d18-a0f2-58b81cb55e780"'
+      Last-Modified:
+      - Mon, 17 Jun 2019 09:41:02 GMT
+      Server:
+      - Footprint Distributor V6.1.1162
+      Strict-Transport-Security:
+      - max-age=15552001; includeSubDomains; preload,max-age=15552001; includeSubDomains;
+        preload
+      Vary:
+      - x-protocol
+      X-Content-Type-Options:
+      - nosniff
+      X-Iinfo:
+      - 4-19402612-19402618 NNNN CT(0 0 0) RT(1560899159338 41) q(0 0 0 -1) r(1 1)
+        U5
+      X-XSS-Protection:
+      - 1; mode=block
+      x-cdn:
+      - Incapsula
+    status:
+      code: 200
+      message: OK
+version: 1
