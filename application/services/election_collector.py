@@ -249,7 +249,7 @@ class ElectionCollectorService(object):
                         'target_table': 'french_election',
                         'delete_keys': {'feed_id': r.feed_id},
                         'records': records,
-                        'chunk_size': 500
+                        'chunk_size': 100
                     }
                 ],
                 'id': r.feed_id,
