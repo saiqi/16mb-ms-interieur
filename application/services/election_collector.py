@@ -145,8 +145,8 @@ class ElectionCollectorService(object):
             'candidat_ordre': ElectionCollectorService.handle_missing_number(
                 doc, 'NumeroOrdCand'),
             'candidat_elu': ElectionCollectorService.to_boolean(doc, 'Elu'),
-            'nuance_code': doc.get('CodNua'),
-            'nuance_lib': doc.get('LibNua'),
+            'nuance_code': doc.get('CodNua', None),
+            'nuance_lib': doc.get('LibNua', None),
             'nb_voix': int(doc['NbVoix'])
         }
     
@@ -157,7 +157,7 @@ class ElectionCollectorService(object):
             'liste_code': doc['CodSeqLisCand'],
             'liste_lib': doc['NomListe'],
             'liste_tete_nom': doc.get('NomTeteListe', None),
-            'liste_tete_prenom': doc.get('NomTeteListe', None),
+            'liste_tete_prenom': doc.get('PrenomTeteListe', None),
             'liste_tete_civilite': doc.get('CiviliteTeteListe', None),
             'liste_nb_elus': ElectionCollectorService.handle_missing_number(doc, 'NbSieges'),
             'nb_voix': int(doc['NbVoix'])
