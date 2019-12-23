@@ -103,7 +103,7 @@ class ElectionCollectorService(object):
                 doc, 'Nuls'),
             'blancs_nuls': ElectionCollectorService.handle_missing_number(
                 doc, 'BlancsOuNuls'),
-            'exprimes': int(doc['Votants']['Nombre'])
+            'exprimes': int(doc['Exprimes']['Nombre'])
         }
 
     @staticmethod
